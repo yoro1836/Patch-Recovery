@@ -8,9 +8,6 @@ on:
         required: true
         default: 'https://transfer.sh/(RECOMMENDED)'
 
-env:
-  RECOVERY_URL: https://oshi.at/Rpjg
-
 jobs:
   build:
     runs-on: ubuntu-latest
